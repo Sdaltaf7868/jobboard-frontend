@@ -7,7 +7,8 @@ function App() {
   const [jobs, setJobs] = useState([]);
   useEffect(()=>{
     const fetchjobs = async()=>{
-      const res=  await fetch("http://localhost:8000/api/jobs");
+      const backendUrl = import.meta.env.VITE_BACKEND_URL || "http://localhost:8000";
+      const res=  await fetch(`${backendUrl}/api/jobs`);
       const data = await res.json();
       setJobs(data);
     }
