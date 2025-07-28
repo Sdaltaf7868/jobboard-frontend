@@ -7,7 +7,7 @@ function App() {
   const [jobs, setJobs] = useState([]);
   useEffect(()=>{
     const fetchjobs = async()=>{
-      const res=  await fetch("http://localhost:8000/api/jobs");
+      const res=  await fetch("https://your-vercel-backend-url.vercel.app/api/jobs");
       const data = await res.json();
       setJobs(data);
     }
