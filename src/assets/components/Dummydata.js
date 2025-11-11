@@ -1,0 +1,233 @@
+export const jobData = [
+  {
+    id: 1,
+    title: "iOS Developer",
+    company: "Apple",
+    type: "Full Time",
+    experience: "1+ year",
+    mode: "In-office",
+    skills: ["Swift", "Xcode", "UIKit"],
+    postedDate: new Date("2025-07-21"),
+    link: "https://jobs.apple.com/en-us/details/ios-developer"
+  },
+  {
+    id: 2,
+    title: "iOS Developer",
+    company: "Paytm",
+    type: "Full Time",
+    experience: "Fresher",
+    mode: "Remote",
+    skills: ["Swift", "Firebase", "iOS SDK"],
+    postedDate: new Date("2025-07-20"),
+    link: "https://jobs.paytm.com/ios-developer"
+  },
+  {
+    id: 3,
+    title: "Frontend Developer",
+    company: "Amazon",
+    type: "Full Time",
+    experience: "Fresher",
+    mode: "In-office",
+    skills: ["React.Js", "CSS", "HTML"],
+    postedDate: new Date("2025-07-19"),
+    link: "https://www.amazon.jobs/en/jobs/frontend-developer"
+  },
+  {
+    id: 4,
+    title: "Frontend Developer",
+    company: "Google",
+    type: "Internship",
+    experience: "Fresher",
+    mode: "Remote",
+    skills: ["JavaScript", "Vue.js", "Tailwind"],
+    postedDate: new Date("2025-07-18"),
+    link: "https://careers.google.com/frontend-developer"
+  },
+  {
+    id: 5,
+    title: "Android Developer",
+    company: "Samsung",
+    type: "Full Time",
+    experience: "1+ year",
+    mode: "Hybrid",
+    skills: ["Kotlin", "Android Studio", "MVVM"],
+    postedDate: new Date("2025-07-18"),
+    link: "https://careers.samsung.com/android-developer"
+  },
+  {
+    id: 6,
+    title: "Android Developer",
+    company: "OnePlus",
+    type: "Internship",
+    experience: "Fresher",
+    mode: "Remote",
+    skills: ["Java", "Kotlin", "XML"],
+    postedDate: new Date("2025-07-17"),
+    link: "https://careers.oneplus.com/android-dev"
+  },
+  {
+    id: 7,
+    title: "SQL Developer",
+    company: "Oracle",
+    type: "Full Time",
+    experience: "2+ years",
+    mode: "Hybrid",
+    skills: ["SQL", "PL/SQL", "Oracle DB"],
+    postedDate: new Date("2025-07-16"),
+    link: "https://www.oracle.com/careers/sql-developer"
+  },
+  {
+    id: 8,
+    title: "SQL Developer",
+    company: "Microsoft",
+    type: "Full Time",
+    experience: "Entry level",
+    mode: "Remote",
+    skills: ["SQL Server", "T-SQL", "SSIS"],
+    postedDate: new Date("2025-07-15"),
+    link: "https://careers.microsoft.com/sql-developer"
+  },
+  {
+    id: 9,
+    title: "Frontend Developer",
+    company: "Zoho",
+    type: "Internship",
+    experience: "Fresher",
+    mode: "In-office",
+    skills: ["HTML", "CSS", "JavaScript"],
+    postedDate: new Date("2025-07-15"),
+    link: "https://careers.zohocorp.com/jobs/frontend"
+  },
+  {
+    id: 10,
+    title: "iOS Developer",
+    company: "Cred",
+    type: "Full Time",
+    experience: "2+ years",
+    mode: "Remote",
+    skills: ["SwiftUI", "Combine", "Unit Testing"],
+    postedDate: new Date("2025-07-14"),
+    link: "https://careers.cred.club/ios-developer"
+  },
+  {
+    id: 11,
+    title: "Android Developer",
+    company: "Flipkart",
+    type: "Full Time",
+    experience: "1+ year",
+    mode: "Remote",
+    skills: ["Kotlin", "Room DB", "Jetpack Compose"],
+    postedDate: new Date("2025-07-14"),
+    link: "https://www.flipkartcareers.com/android-developer"
+  },
+  {
+    id: 12,
+    title: "SQL Developer",
+    company: "Infosys",
+    type: "Full Time",
+    experience: "Fresher",
+    mode: "In-office",
+    skills: ["SQL", "Data Modeling", "ETL"],
+    postedDate: new Date("2025-07-13"),
+    link: "https://www.infosys.com/sql-developer-jobs"
+  },
+  {
+    id: 13,
+    title: "Frontend Developer",
+    company: "TCS",
+    type: "Full Time",
+    experience: "1+ year",
+    mode: "Remote",
+    skills: ["Angular", "RxJS", "HTML"],
+    postedDate: new Date("2025-07-13"),
+    link: "https://www.tcs.com/frontend-developer"
+  },
+  {
+    id: 14,
+    title: "iOS Developer",
+    company: "Swiggy",
+    type: "Internship",
+    experience: "Fresher",
+    mode: "Hybrid",
+    skills: ["Swift", "REST APIs", "Auto Layout"],
+    postedDate: new Date("2025-07-12"),
+    link: "https://careers.swiggy.com/ios-dev"
+  },
+  {
+    id: 15,
+    title: "Android Developer",
+    company: "Uber",
+    type: "Full Time",
+    experience: "2+ years",
+    mode: "In-office",
+    skills: ["Kotlin", "Firebase", "JUnit"],
+    postedDate: new Date("2025-07-12"),
+    link: "https://www.uber.com/careers/android"
+  },
+  {
+    id: 16,
+    title: "SQL Developer",
+    company: "Wipro",
+    type: "Contract",
+    experience: "Entry level",
+    mode: "Remote",
+    skills: ["SQL", "SSRS", "Power BI"],
+    postedDate: new Date("2025-07-11"),
+    link: "https://careers.wipro.com/sql-developer"
+  },
+  {
+    id: 17,
+    title: "Frontend Developer",
+    company: "Freshworks",
+    type: "Full Time",
+    experience: "1+ year",
+    mode: "In-office",
+    skills: ["React.Js", "Redux", "Hooks"],
+    postedDate: new Date("2025-07-11"),
+    link: "https://www.freshworks.com/careers/frontend"
+  },
+  {
+    id: 18,
+    title: "iOS Developer",
+    company: "Zomato",
+    type: "Full Time",
+    experience: "Fresher",
+    mode: "Remote",
+    skills: ["Swift", "Firebase", "Push Notifications"],
+    postedDate: new Date("2025-07-10"),
+    link: "https://careers.zomato.com/ios-developer"
+  },
+  {
+    id: 19,
+    title: "Android Developer",
+    company: "Ola",
+    type: "Internship",
+    experience: "Fresher",
+    mode: "Hybrid",
+    skills: ["Java", "API Integration", "MVVM"],
+    postedDate: new Date("2025-07-09"),
+    link: "https://careers.olacabs.com/android"
+  },
+  {
+    id: 20,
+    title: "SQL Developer",
+    company: "Mindtree",
+    type: "Full Time",
+    experience: "1+ year",
+    mode: "In-office",
+    skills: ["MySQL", "Stored Procedures", "Data Warehousing"],
+    postedDate: new Date("2025-07-08"),
+    link: "https://www.ltimindtree.com/sql-dev"
+  },
+  {
+    id: 21,
+    title: "Frontend Developer",
+    company: "Capgemini",
+    type: "Full Time",
+    experience: "Entry level",
+    mode: "Hybrid",
+    skills: ["HTML", "SASS", "Bootstrap"],
+    postedDate: new Date("2025-07-08"),
+    link: "https://www.capgemini.com/frontend-jobs"
+  }
+];

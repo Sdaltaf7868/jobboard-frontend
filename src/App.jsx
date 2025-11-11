@@ -7,8 +7,7 @@ function App() {
   const [jobs, setJobs] = useState([]);
   useEffect(()=>{
     const fetchjobs = async()=>{
-      const backendUrl = import.meta.env.VITE_BACKEND_URL || "http://localhost:8000";
-      const res=  await fetch(`${backendUrl}/api/jobs`);
+      const res=  await fetch("https://jobboard-backend-nkr7.onrender.com/api/jobs");
       const data = await res.json();
       setJobs(data);
     }
