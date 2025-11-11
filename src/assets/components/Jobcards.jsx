@@ -20,7 +20,7 @@ function Jobcards({ title, company, type, experience, mode, skills, postedDate, 
           <p>{date2} day{date2 !== 1 ? "s" : ""} ago</p>
         </div>
          <a href={link} target="_blank" rel="noopener noreferrer">
-        <button className="px-6 py-4 bg-blue-600 rounded-full text-white">
+        <button className="px-6 py-4 bg-blue-600 rounded-full text-white font-semibold hover:bg-blue-700 transition-all inline-block">
           Apply
         </button>
 
