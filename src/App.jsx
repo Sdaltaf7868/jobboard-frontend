@@ -5,14 +5,20 @@ import Searchbar from "./assets/components/Searchbar";
 import Jobcards from "./assets/components/Jobcards";
 function App() {
   const [jobs, setJobs] = useState([]);
-useEffect(()=>{
-  const fetchjobs = async()=>{
-    const res = await fetch("https://jobboard-backend-nkr7.onrender.com/api/jobs");
-    const data = await res.json();
-    setJobs(data);
-  }
+
+useEffect(() => {
+  const fetchjobs = async () => {
+    try {
+      const res = await fetch('https://your-backend-url.onrender.com/api/jobs');
+      const data = await res.json();
+      setJobs(data);
+    } catch (error) {
+      console.error("Error fetching jobs:", error);
+    }
+  };
   fetchjobs();
-}, [])
+}, []);
+
 
   // Dummy authentication check (replace with real logic as needed)
 
