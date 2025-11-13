@@ -9,7 +9,7 @@ function App() {
 useEffect(() => {
   const fetchjobs = async () => {
     try {
-      const res = await fetch('https://your-backend-url.onrender.com/api/jobs');
+      const res = await fetch('https://jobboard-backend-phf0.onrender.com/api/jobs');
       const data = await res.json();
       setJobs(data);
     } catch (error) {
