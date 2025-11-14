@@ -9,7 +9,11 @@ function App() {
 useEffect(() => {
   const fetchjobs = async () => {
     try {
-    const res = await fetch('https://jobboard-backend-1cjq.onrender.com/api/jobs');  
+    const res = await fetch('https://jobboard-backend-1cjq.onrender.com/api/jobs', {
+      method: 'GET',
+      mode: 'cors',
+    });
+    
       const data = await res.json();
       setJobs(data);
     } catch (error) {
